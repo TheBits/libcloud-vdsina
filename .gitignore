@@ -1,0 +1,7 @@
+*.py[cod]
+.envrc
+__pycache__/
+.direnv/
+.tox/
+.vscode/
+*.egg-info/
