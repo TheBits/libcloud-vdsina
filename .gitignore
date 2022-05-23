@@ -5,3 +5,5 @@ __pycache__/
 .tox/
 .vscode/
 *.egg-info/
+.coverage
+bin/*
