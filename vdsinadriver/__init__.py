@@ -48,7 +48,7 @@ class VdsinaDriver(NodeDriver):
     def list_key_pairs(self):
         response = self.connection.request("v1/ssh-key")
         key_pairs = []
-        for kp in response.object:
+        for kp in response.object.get("data"):
             key_pair = KeyPair(
                 name=kp["name"],
                 public_key=kp["key"],
