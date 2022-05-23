@@ -6,7 +6,7 @@ on:
     branches: [main]
 
 env:
-  DRIVER_TOKEN: github-actions
+  VDSINA_TOKEN: github-actions
   TOX_PARALLEL_NO_SPINNER: 1
 
 jobs:
