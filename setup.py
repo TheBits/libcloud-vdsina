@@ -1,14 +1,13 @@
 import setuptools
 
-with open("README.md") as fh:
-    long_description = fh.read()
+long_description = "[Libcloud](https://libcloud.apache.org/) driver for [vdsina.ru](https://vdsina.ru/)"
 
 setuptools.setup(
     name="vdsinadriver",
     version="0.0.1",
     author="Sergey Mezentsev",
     author_email="thebits@yandex.ru",
-    description="Libcloud driver for vdsina",
+    description="Libcloud driver for vdsina.ru",
     license="UNLICENSE",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -19,6 +18,5 @@ setuptools.setup(
         "Intended Audience :: System Administrators",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3",
-        "Topic :: Software Development :: Libraries :: Python Modules",
     ],
 )
